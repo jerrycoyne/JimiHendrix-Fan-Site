@@ -1,0 +1,270 @@
+﻿body {
+    
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font: 18px arial
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    text-align: center;
+    position:fixed;
+}
+
+    .navbar > ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .navbar > li {
+        display: inline;
+        padding: 10px;
+    }
+
+        .navbar > li > a {
+            font: 30px arial;
+            margin-right: 10px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+
+
+header{
+    
+    font-family: impact;
+    text-align:center;
+    padding-top: 2%;
+}
+
+#landingphoto > img{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+#about{
+    background-color: red;
+}
+.bio{
+    padding: 10px;
+    float: left;
+    width: 32%;
+    height: auto;
+}
+
+.discogrophy {
+    padding: 10px;
+    float: left;
+    width: 32%;
+    height: auto;
+}
+
+.acolades {
+    padding: 10px;
+    float: left;
+    width: 32%;
+    height: auto;
+}
+
+.clear{
+    clear:both;
+}
+
+#gallery {
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+}
+
+#img1 {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    width: 32%;
+    height: auto;
+}
+
+#img2 {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    width: 32%;
+    height: auto;
+}
+
+#img3 {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    width: 32%;
+    height: auto;
+}
+
+#img4 {
+    margin: 5px;
+    padding: 5px;
+    float: right;
+    width: 32%;
+    height: auto;
+}
+
+#img5 {
+    margin: 5px;
+    padding: 5px;
+    float: right;
+    width: 32%;
+    height: auto;
+}
+
+#img6 {
+    margin: 5px;
+    padding: 5px;
+    float: right;
+    width: 32%;
+    height: auto;
+}
+
+
+.clear{
+    clear:both;
+}
+
+.footer {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+/*Mobile resizing CSS*/
+@media screen and (max-width: 520px) {
+
+    
+    .navbar > li {
+        display: block;
+    }
+
+    .navbar {
+        text-align: center;
+        position:relative;
+    }
+
+    #landingphoto {
+       
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #landingphoto > img{
+        width: 100%;
+        height: auto;
+    }
+
+    .clear{
+        clear:both;
+    }
+
+    #about{
+        display: block;
+    }
+
+    .bio {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .bio > h2{
+        text-align:center;
+    }
+
+    .discogrophy {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .discogrophy > h2 {
+        text-align: center;
+     }
+
+    .acolades {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .acolades > h2{
+        text-align: center;
+    }
+
+    #form1{
+        display:block;
+    }
+
+    #img1 {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    #img2 {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #img3 {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #img4 {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #img5 {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #img6 {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
